@@ -4,9 +4,9 @@ const path = require('path');
 function moveItem(source, destination) {
   try {
     fs.moveSync(source, destination, { overwrite: true });
-    console.log(Successfully moved  to );
+    console.log(`Successfully moved ${source} to ${destination}`);
   } catch (error) {
-    console.error(Error moving  to : );
+    console.error(`Error moving ${source} to ${destination}: ${error.message}`);
   }
 }
 
