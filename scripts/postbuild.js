@@ -23,7 +23,4 @@ fs.readdirSync(outDir).forEach(file => {
   }
 });
 
-console.log('Moving _next directory');
-moveItem(path.join(outDir, '_next'), path.join(publicDir, '_next'));
-
 console.log('Postbuild script completed.');
