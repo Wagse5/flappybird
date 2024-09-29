@@ -55,10 +55,14 @@ If you encounter any issues with running the development server, make sure:
 - Updated FlappyBird.test.js with correct imports and test cases
 - Installed @babel/preset-react for JSX transformation
 - Updated babel.config.js and jest.config.js for proper test setup
+-- Completely rewrote FlappyBird.js file to fix syntax errors and improve game mechanics
 +- Completely rewrote FlappyBird.js file to fix syntax errors and improve game mechanics
-+- Created gameConfig.js file with predefined difficulty levels (easy, medium, hard)
-+- Updated FlappyBird.js to include toggleable game modes
-+- Created AutoConfig.js to automatically find optimal game configurations
-+- Updated FlappyBird.js to use optimized configurations
-+- Initialized Git repository for version control
-+- Fixed FlappyBird component and updated tests to match new structure
+- Created gameConfig.js file with predefined difficulty levels (easy, medium, hard)
+- Updated FlappyBird.js to include toggleable game modes
+- Created AutoConfig.js to automatically find optimal game configurations
+- Updated FlappyBird.js to use optimized configurations
+- Initialized Git repository for version control
+- Fixed FlappyBird component and updated tests to match new structure
++- Pushed code to GitHub repository after resolving branch naming issues
++- Updated Next.js and dependencies to resolve deployment issues
++- Removed custom Babel configuration and updated project configuration files
