@@ -10,6 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "fs-extra": "^11.2.0",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
