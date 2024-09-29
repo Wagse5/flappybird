@@ -30,3 +30,9 @@ yarn-error.log*
 
 # Vercel
 .vercel
+
+# TypeScript
+*.tsbuildinfo
+
+# Specific large files
+node_modules/@next/swc-win32-x64-msvc/next-swc.win32-x64-msvc.node
