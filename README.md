@@ -58,3 +58,6 @@ If you encounter any issues with running the development server, make sure:
 +- Completely rewrote FlappyBird.js file to fix syntax errors and improve game mechanics
 +- Created gameConfig.js file with predefined difficulty levels (easy, medium, hard)
 +- Updated FlappyBird.js to include toggleable game modes
++- Created AutoConfig.js to automatically find optimal game configurations
++- Updated FlappyBird.js to use optimized configurations
++- Initialized Git repository for version control
