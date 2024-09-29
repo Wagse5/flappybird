@@ -86,5 +86,4 @@ If you encounter any issues with running the development server, make sure:
 +- Added postbuild script to move static files to public directory
 +- Updated vercel.json to serve static files from public directory
 +- Completely rewrote postbuild.js script to fix syntax errors and improve error handling
-
-+Note: These changes aim to resolve deployment issues on Vercel by ensuring proper static file handling and routing.
++- Fixed syntax error in console.log statement in postbuild.js script
