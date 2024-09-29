@@ -69,3 +69,5 @@ If you encounter any issues with running the development server, make sure:
 +- Updated project configuration for static export
 +- Modified build configuration to use Next.js 13+ static export method
 +- Added vercel.json configuration file for proper static site routing
++- Removed 'next export' command from build script
++- Updated next.config.js to use 'output: export' for static site generation
