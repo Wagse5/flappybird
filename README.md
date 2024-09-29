@@ -71,3 +71,5 @@ If you encounter any issues with running the development server, make sure:
 +- Added vercel.json configuration file for proper static site routing
 +- Removed 'next export' command from build script
 +- Updated next.config.js to use 'output: export' for static site generation
++- Added postbuild script to move static files to public directory
++- Updated vercel.json to serve static files from public directory
