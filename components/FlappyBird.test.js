@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, fireEvent, screen } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import FlappyBird from './FlappyBird';
 
@@ -18,5 +18,17 @@ describe('FlappyBird', () => {
   test('displays score', () => {
     render(<FlappyBird />);
     expect(screen.getByText('Score: 0')).toBeInTheDocument();
+  });
+
+  test('displays game mode buttons', () => {
+    render(<FlappyBird />);
+    expect(screen.getByText('Easy')).toBeInTheDocument();
+    expect(screen.getByText('Medium')).toBeInTheDocument();
+    expect(screen.getByText('Hard')).toBeInTheDocument();
+  });
+
+  test('displays current game mode', () => {
+    render(<FlappyBird />);
+    expect(screen.getByText('Current Mode: medium')).toBeInTheDocument();
   });
 });
