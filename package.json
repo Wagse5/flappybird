@@ -4,16 +4,17 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/postbuild.js",
+    "build": "next build",
+    "postbuild": "node scripts/postbuild.js",
     "start": "next start",
     "lint": "next lint",
     "test": "jest"
   },
   "dependencies": {
-    "fs-extra": "^11.2.0",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "fs-extra": "^11.1.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
