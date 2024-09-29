@@ -16,6 +16,8 @@ This is a Flappy Bird game built with Next.js and playable in a web browser. It 
     - FlappyBird.test.js
   - package.json
   - README.md
+  - next.config.js
+  - vercel.json
 
 ## How to Run
 
@@ -66,3 +68,4 @@ If you encounter any issues with running the development server, make sure:
 +- Updated Next.js and dependencies to resolve deployment issues
 +- Updated project configuration for static export
 +- Modified build configuration to use Next.js 13+ static export method
++- Added vercel.json configuration file for proper static site routing

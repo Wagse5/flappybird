@@ -1,11 +1,13 @@
 import React from 'react';
 import FlappyBird from '../components/FlappyBird';
 
-export default function Home() {
+const Home = () => {
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
-      <h1>Flappy Bird</h1>
+    <div>
+      <h1>Flappy Bird Game</h1>
       <FlappyBird />
     </div>
   );
-}
+};
+
+export default Home;
